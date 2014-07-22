@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Color Palette Example</title>
+
+    <script src="packages/web_components/platform.js"></script>
+    <script src="packages/web_components/dart_support.js"></script>
+
+    <link rel="import" href="packages/polymer/polymer.html">
+    <link rel="import" href="packages/my_tag/my_tag.html">
+    <link rel="import" href="packages/my_tag/my_tag_wrapper.html">
+  </head>
+  <body>
+    <my-tag id="foo">
+      <p>my-tag contents</p>
+    </my-tag>
+    <my-tag-wrapper>
+    </my-tag-wrapper>
+    <script type="application/dart">
+      import 'package:polymer/polymer.dart';
+      main() {
+        initPolymer();
+      }
+    </script>
+  </body>
+</html>

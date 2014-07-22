@@ -1,0 +1,8 @@
+name: my_tag
+description: A sample codes for asking in Stack Overflow
+dependencies:
+  polymer: any
+transformers:
+- polymer:
+    entry_points:
+    - example/index.html
